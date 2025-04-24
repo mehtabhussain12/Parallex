@@ -1,0 +1,86 @@
+*{
+        font-family: "Cedarville Cursive", "cursive";
+        font-weight: 400;
+        font-style: normal;
+      
+    margin: 0px;
+    text-transform: capitalize;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: #171717;
+    color: azure;
+    padding: 10px;
+    padding-top: 15px;
+    position: sticky;
+    top: 0;
+}
+button{
+    background-color: #ff481f;
+    border: 1px solid black;
+    color: azure;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+.header nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+li{
+    cursor: pointer;
+}
+.parallex{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-1{
+    color: azure;
+    font-size: 80px;
+    background-image: url(https://images.unsplash.com/photo-1558985040-ed4d5029dd50?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjIzODkxNjg&ixlib=rb-1.2.1&q=80&quot);
+}
+.text{
+    justify-content:center;
+    padding: 22px;
+    font-size: small;
+}
+.section-2{
+    color: azure;
+    font-size: 80px;
+    background-image: url(https://images.unsplash.com/photo-1610128114197-485d933885c5?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjIzOTA2Nzc&ixlib=rb-1.2.1&q=80&quot);
+}
+.section-3{
+    color: azure;
+    font-size: 80px;
+    background-image: url(https://images.unsplash.com/photo-1562095241-8c6714fd4178?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjIzOTA5OTg&ixlib=rb-1.2.1&q=80&quot);
+}
+.section-4{
+    color: azure;
+    font-size: 80px;
+    background-image: url(https://images.unsplash.com/photo-1543722530-d2c3201371e7?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjIzOTExOTg&ixlib=rb-1.2.1&q=80&quot);
+}
+.footer{
+    background-color: #171717;
+    color: azure;
+    padding: 10px;
+    font-size: 14px;
+}
+.footer nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 45px;
+}
+.footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
